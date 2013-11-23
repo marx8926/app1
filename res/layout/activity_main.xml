@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="LOGIN"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+		<!--  Usuario Label -->
+		
+		<!--  Usuario Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario" 
+            android:textSize="20dip"
+            />
+		<!--  Usuario TextField -->
+        <EditText
+            android:id="@+id/loginEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:editable="true"
+            android:text="abc"
+            />
+        
+		<!--  Password Label -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="Password"
+            android:textSize="20dip" />
+        
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:text="1234" />
+        
+        <!--  Login Button -->
+        
+        <LinearLayout 
+		    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" android:gravity="center_vertical|center_vertical">
+		    
+		    >		    
+		     <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            
+            android:text="  Login  " 
+            android:onClick="onLogin"
+            android:textSize="20dip"
+             android:background="@drawable/btnblue"
+		       style="@style/ButtonText"
+		       android:gravity="center_vertical|center_horizontal"
+            />
+
+        <!--  Link to Registration Screen -->
+
+		</LinearLayout>
+       
+
+</LinearLayout>
