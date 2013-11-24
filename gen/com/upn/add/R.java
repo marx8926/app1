@@ -27,13 +27,27 @@ public final class R {
         public static final int ic_launcher=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f080006;
-        public static final int btnLogin=0x7f080002;
-        public static final int loginEmail=0x7f080000;
-        public static final int loginPassword=0x7f080001;
-        public static final int pedtaxi=0x7f080005;
-        public static final int regfavor=0x7f080004;
-        public static final int titleBienvenido=0x7f080003;
+        public static final int ButtonRestar=0x7f08000c;
+        public static final int ButtonSumar=0x7f08000b;
+        public static final int TableRow01=0x7f08000a;
+        public static final int action_settings=0x7f080014;
+        public static final int btnLogin=0x7f080004;
+        public static final int buttonDividir=0x7f08000f;
+        public static final int buttonHistorico=0x7f080010;
+        public static final int buttonMultiplica=0x7f08000e;
+        public static final int linearLayout1=0x7f080005;
+        public static final int linearLayout2=0x7f080007;
+        public static final int listaHistorico=0x7f080001;
+        public static final int loginEmail=0x7f080002;
+        public static final int loginPassword=0x7f080003;
+        public static final int numero1=0x7f080006;
+        public static final int numero2=0x7f080008;
+        public static final int pedtaxi=0x7f080013;
+        public static final int regfavor=0x7f080012;
+        public static final int tableLayout1=0x7f080009;
+        public static final int tableRow1=0x7f08000d;
+        public static final int textView1=0x7f080000;
+        public static final int titleBienvenido=0x7f080011;
     }
     public static final class layout {
         public static final int activity_historico=0x7f030000;

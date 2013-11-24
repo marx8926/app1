@@ -26,8 +26,7 @@
 		        android:text="Nueva Operación"
 		        android:textSize="20dip"
 		        android:padding="10dip"
-		        android:onClick="onNuevaOper"	   
-		        android:background="@drawable/btnblack"
+		        android:onClick="onNuevaOperacion"	   
 		       style="@style/ButtonText"
 		        
 		        />
@@ -41,7 +40,6 @@
 		        android:textSize="20dip"
 		        android:padding="10dip"
 		        android:onClick="onHistorico"
-		        android:background="@drawable/btnblack"
 		       style="@style/ButtonText"
 		        />
 

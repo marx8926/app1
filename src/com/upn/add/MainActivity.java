@@ -36,14 +36,13 @@ public class MainActivity extends Activity {
 	EditText Usuario, Pass;	
 	String usuario_fin,pass_fin,read;	
 	
-	String ip = "http://192.168.0.18:81";
+	String ip = "http://192.168.1.35/servicio_android";
 
 	
 	public JSONArray jsonArray;
 	public String resultado;
 	
     private ProgressDialog dialog;
-    Intent servicio;
 	
 	
 	@Override
@@ -115,8 +114,7 @@ public class MainActivity extends Activity {
 	    	pass_fin = Pass.getText().toString();
 	  
 	    	
-	    	String url = ip+"/servicio_android/login.php?usuario="+usuario_fin+"&password="+pass_fin;
-	    	Log.d("url", url);
+	    	String url = ip+"/login.php?usuario="+usuario_fin+"&password="+pass_fin;
 	    	
 	    	build(url);  	
 	  }
@@ -190,11 +188,7 @@ public class MainActivity extends Activity {
 	        		String id = new String();   	
 	        		Log.d("resultado2", result);
 	        	try {
-	        		/*
-	        		jsonArray = new JSONArray(result);
-	    			Log.i("JSON", "Number of surveys in feed: " + 
-	    					jsonArray.length());
-	        		 */
+	        		
 	        		JSONObject topobj = new JSONObject(result);
 	        		id = topobj.getString("mensaje");
 	    			

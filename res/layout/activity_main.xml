@@ -64,8 +64,7 @@
             android:text="  Login  " 
             android:onClick="onLogin"
             android:textSize="20dip"
-             android:background="@drawable/btnblue"
-		       style="@style/ButtonText"
+             
 		       android:gravity="center_vertical|center_horizontal"
             />
 
